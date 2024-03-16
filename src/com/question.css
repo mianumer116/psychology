@@ -1,0 +1,56 @@
+.box5{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  background-color: #878780;
+  color:white;
+  font-family: Madimi One;
+    
+}
+.ques{
+    font-size: 54px;
+
+}
+.con{
+    border: 1px solid ;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+.cag{
+    padding-left: 300px;
+    margin-top: 34px;
+}
+.bfi{
+    width:600px;
+}
+@media screen and (max-width:768px) {
+    .cag{
+        padding-left:30px;
+        padding-right: 30px;
+    }
+.box5{
+    height:40vh;
+}
+    
+}
+@media screen and (min-width:767px) {
+   
+    .cag{
+        margin-top: 0px;
+       
+    }
+    .box5{
+        margin-top: 100px; 
+     }
+    
+}
+ @media screen and (max-width:1100px) and (min-width:772px){
+    .cag{
+        padding-left: 10px;
+    }
+    
+ }

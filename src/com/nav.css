@@ -1,0 +1,31 @@
+nav{
+    color:#575750;
+
+}
+.fd{
+    color:#575750;
+    font-size: 32px;
+    font-family:Roboto Serif ;
+}
+.navc{
+    font-family: Roboto serif;
+    color:#575750;
+}
+
+    .navm {
+        background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/dossenbach0a5yk/main2-A0xK3w5v20ulGZKB.png');
+        background-position: top; /* Position the background image at the top */
+        background-repeat: no-repeat; /* Prevent background image from repeating */
+        background-size: cover; /* Cover the entire container with the background image */
+        width:100vw;
+    }
+    
+
+    @media screen and (max-width:768px) {
+        .navm{
+            background-color: #D8DAD9;
+            
+        
+        }
+        
+    }

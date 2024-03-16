@@ -1,0 +1,73 @@
+
+.homeimg {
+    height: 100vh;
+    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/dossenbach0a5yk/main2-A0xK3w5v20ulGZKB.png');
+    width: 100vw;
+    background-size: cover; /* Adjusted background size */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#4A4A43;
+    font-family: Roboto Serif;
+    margin-right:345PX;
+  
+}
+.homep{
+    width:40%;
+
+}
+.homebu{
+    width:139px;
+    height:38px;
+    border:1px solid;
+    margin-top: 34px;
+  
+}
+.homebu:hover{
+    background-color: #575750;
+    color:white;
+}
+
+@media screen and (max-width:768px) {
+    .homeimg{
+        background-size:auto ;
+    }
+    .fom{
+        margin-right: 0px;
+    }
+    .homep{
+        width:70%;
+    }
+    .homeester{
+        font-size: 65px;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    .homeester{
+        font-size: 86px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .homeester{
+        font-size:56px
+    }
+    
+}
+
+@media screen and (max-width:767px) and (min-width:200px){
+    .homeimg{
+        height:70vh;
+    }
+    
+}

@@ -1,0 +1,51 @@
+.box4{
+  
+    padding-left:200px;
+    padding-right: 200px;
+    margin-top: 43px;
+    color:#4A4A43;
+    font-family: Madimi One;
+}
+.testi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 34px;
+    color:#4A4A43;
+    font-family: Madimi One;
+}
+.hclient{
+    margin-top: 32px;
+    font-size: 54px;
+}
+.dolo{
+    display:flex;
+    justify-content: start;
+
+}
+.tep{
+    margin-top: 24px;
+}
+@media screen and (max-width:1200px) {
+   .box4{
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+
+}
+@media screen and (max-width:411px) {
+    .boxf{
+        margin-top: 180px;
+    }
+    .hclient{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:766px) and (min-width:452px) {
+    .boxf{
+        margin-top: 500px;
+
+    }
+    
+}

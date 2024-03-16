@@ -1,0 +1,63 @@
+.met{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    color:#4A4A43;
+    font-family: Roboto Serif;
+}
+.mainmethod{
+    height:79vh;
+}
+.mymethod{
+    font-size: 56px;
+    color:#4A4A43;
+}
+.box1{
+    margin-top: 145px;
+    margin-left: 24px;
+     
+    
+}
+.bh{
+    font-size: 28px;
+    font-family: Madimi One;
+    color:#4A4A43;
+}
+.mainbox{
+    padding-left:200px;
+    padding-right:200px;
+}
+.mainp{
+    margin-top: 34px;
+}
+@media screen and (max-width:767px) {
+    .box1{
+        margin-top: 23px;
+        margin-left: 0px;
+    }
+    .mainbox{
+        padding-left: 0px;
+        padding-right: 89px;
+    }
+    .mymethod{
+        font-size: 40px;
+    }
+    .mainmethod{
+        height:auto;
+    }
+    
+}
+@media screen and (max-width:1200px) and (min-width:767px) {
+    .mainmethod{
+        height:auto;
+    }
+    .mainbox{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .bh{
+        font-size: 23px;
+    }
+}
