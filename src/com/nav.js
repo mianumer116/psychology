@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css'
 function Nav() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -27,7 +28,7 @@ function Nav() {
           </svg>
         </button>
         <nav className={`md:ml-auto md:mr-4 md:flex md:items-center ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-          <a href="#" className="mr-5 hover:text-gray-900 navc">Home</a>
+          <Link to="/home"  href="#" className="mr-5 hover:text-gray-900 navc">Home</Link>
           <a href="#" className="mr-5 hover:text-gray-900 navc">About</a>
           <div className="relative" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
             <button className="mr-5 hover:text-gray-900 navc">Service</button>

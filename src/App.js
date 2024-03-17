@@ -10,12 +10,12 @@ function App() {
         <Nav />
         <Routes>
           <Route
-            path="/"
+            path="/my-react-app" 
             element={<Home/>}
           />
           <Route
             path="/home"
-            element={""}
+            element={<Home/>}
           />
           <Route
             path="/courses"
