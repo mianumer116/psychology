@@ -8,9 +8,10 @@ function App() {
    <>
     <Router>
         <Nav />
+        <Home/>
         <Routes>
           <Route
-            path="/my-react-app" 
+            path="Aye/my-react-app" 
             element={<Home/>}
           />
           <Route
