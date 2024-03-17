@@ -8,10 +8,10 @@ function App() {
    <>
     <Router>
         <Nav />
-        <Home/>
+     
         <Routes>
           <Route
-            path="Aye/my-react-app" 
+            path="/psychology" 
             element={<Home/>}
           />
           <Route
