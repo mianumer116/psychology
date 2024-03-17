@@ -1,0 +1,44 @@
+.contactimg{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.fln{
+    margin: 13px;
+    color:#4A4A43;
+    font-family:Madimi One ;
+}
+.smc{
+    font-size: 45px;
+}
+
+ .inp{
+    border:1px solid;
+    width:70%;
+    background-color:#F3F3F2;
+    padding:9px;
+    height:43px;
+}
+.lab{
+    font-size: 32px;
+}
+.tex{
+    width:70%;
+    border:1px solid;
+    padding:10px;
+    background-color: #F3F3F2;
+}
+.cosub{
+    border:1px solid;
+    width:100px;
+    height:42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.cosub:hover{
+    background-color: #4A4A43;
+    color:white;
+}

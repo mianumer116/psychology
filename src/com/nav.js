@@ -38,7 +38,7 @@ function Nav() {
               <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 navc">Service 3</a>
             </div>
           </div>
-          <a href="#" className="mr-5 hover:text-gray-900 navc">Contact</a>
+          <Link to ="/contact" href="#" className="mr-5 hover:text-gray-900 navc">Contact</Link>
         </nav>
         
       </div>
