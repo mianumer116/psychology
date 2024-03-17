@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './com/home'
 import Nav from './com/nav'
+import About from './com/about'
 function App() {
   return (
    <>
@@ -19,8 +20,8 @@ function App() {
             element={<Home/>}
           />
           <Route
-            path="/courses"
-            element={""}
+            path="/about"
+            element={<About/>}
             
           />
           <Route

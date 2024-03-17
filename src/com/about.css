@@ -1,0 +1,44 @@
+.aboutme{
+    display: flex;
+    justify-content: center;
+   
+}
+.niceto{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 80px;
+    color:#4A4A43;
+    font-family:Madimi One ;
+}
+.boxabout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ptwo{
+    margin-top: 80px;
+}
+.aboutp{
+    padding-left:100px ;
+    padding-right: 100px;
+    color:#4A4A43;
+    font-family:Madimi One ;
+}
+.aboutc{
+    background-color: #F3F3F2;
+    padding-top: 70px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .aboutp{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .niceto{
+        font-size: 50px;
+    }
+    
+}

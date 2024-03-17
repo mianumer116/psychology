@@ -1,0 +1,49 @@
+.newp{
+    margin-top: 43px;
+}
+.edus{
+    display: flex;
+    justify-content: center;
+}
+.tr{
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+}
+.har{
+    margin-top: 43px;
+}
+.newy{
+    margin-top: 43px;
+}
+.e{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.educationbox{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.bal{
+    margin-top: 43px;
+}
+.hospi{
+    margin-top: 32px;
+}
+.eduss{
+    padding: 40px;
+    background-color: #F3F3F2;
+    color:#4A4A43;
+    font-family:Madimi One ;
+}
+@media screen and (max-width:1200px) {
+    .e{
+        font-size: 20px;
+    }
+    
+}
