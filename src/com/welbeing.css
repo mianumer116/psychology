@@ -1,0 +1,32 @@
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    color:#4A4A43;
+    font-family: Roboto Serif;
+
+}
+.brek{
+    font-size: 43px;
+    color:#4A4A43;
+    font-family: Roboto Serif;
+}
+.wp{
+    margin-top: 32px;
+}
+.fop{
+    margin-top: 43px;
+}
+footer{
+    background-color: #4A4A43;
+    color:white;
+    margin-top: 90px;
+    padding:50px;
+}

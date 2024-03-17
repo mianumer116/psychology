@@ -4,6 +4,8 @@ import Individual from './individual'
 import Couple from './couple'
 import Testimonial from './testimonials'
 import Question from './question'
+import Welbing from './welbeing'
+import Footer from './footer'
 function Home() {
     return (
         <>
@@ -29,6 +31,8 @@ function Home() {
                 <Couple />
                 <Testimonial/>
                 <Question/>
+                <Welbing/>
+                <Footer/>
             </main>
         </>
     )

@@ -1,0 +1,27 @@
+.foop{
+    margin-top: 23px;
+}
+.pshelp{
+    font-size: 54px;
+    
+}
+.box7{
+    margin-top: 60px;
+}
+.fps{
+    font-size: 32px;
+}
+
+@media screen and (max-width:800px) {
+    footer{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    .pshelp{
+        font-size: 32px;
+    }
+    .fps{
+        font-size: 23px;
+    }
+    
+}
